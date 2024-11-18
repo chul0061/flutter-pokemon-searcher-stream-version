@@ -1,17 +1,20 @@
-# flutter_stream_test
+# Flutter Stream Practice with PokéAPI
 
-A new Flutter project.
+포켓몬 API를 활용해서 Flutter의 Stream 개념을 숙달하기 위한 프로젝트입니다.
+실시간 검색, 자동완성 등의 기능을 구현하면서 Stream을 자유롭게 사용하는 것이 목적입니다.
 
-## Getting Started
+## 주요 기능
 
-This project is a starting point for a Flutter application.
+- 포켓몬 실시간 검색
+- 검색어 자동완성
+- 포켓몬 상세 정보 표시
+- 검색 기록 관리
 
-A few resources to get you started if this is your first Flutter project:
+## 기술 스택
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter-pokemon-searcher-stream-version
+- Flutter 3.24.3
+- Dart Stream
+- StreamController
+- StreamBuilder
+- HTTP 통신
+- [PokéAPI](https://pokeapi.co/)
